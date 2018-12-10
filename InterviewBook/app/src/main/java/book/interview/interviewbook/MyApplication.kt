@@ -20,7 +20,7 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         context = this
-        LogUtil.d("a->" + FileUtil.getExternalFilesDir())
+//        LogUtil.d("a->" + FileUtil.getExternalFilesDir())
 //        RichText.initCacheDir()
     }
 
